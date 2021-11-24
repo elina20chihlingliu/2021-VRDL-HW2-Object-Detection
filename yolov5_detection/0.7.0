@@ -1,0 +1,5 @@
+Requirement already satisfied: torchvision in c:\users\user\anaconda3\envs\yolov5\lib\site-packages (0.11.1)
+Requirement already satisfied: numpy in c:\users\user\anaconda3\envs\yolov5\lib\site-packages (from torchvision) (1.21.4)
+Requirement already satisfied: torch==1.10.0 in c:\users\user\anaconda3\envs\yolov5\lib\site-packages (from torchvision) (1.10.0)
+Requirement already satisfied: pillow!=8.3.0,>=5.3.0 in c:\users\user\anaconda3\envs\yolov5\lib\site-packages (from torchvision) (8.4.0)
+Requirement already satisfied: typing_extensions in c:\users\user\anaconda3\envs\yolov5\lib\site-packages (from torch==1.10.0->torchvision) (4.0.0)
