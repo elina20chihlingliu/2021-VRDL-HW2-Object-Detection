@@ -212,7 +212,7 @@ def parse_opt():
     parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--view-img', action='store_true', help='show results')
     parser.add_argument('--save-txt', default = True,action='store_true', help='save results to *.txt')
-    parser.add_argument('--save-conf', default = True, action='store_true', help='save confidences in --save-txt labels')
+    parser.add_argument('--save-conf', default = False, action='store_true', help='save confidences in --save-txt labels')
     parser.add_argument('--save-crop', action='store_true', help='save cropped prediction boxes')
     parser.add_argument('--nosave', action='store_true', help='do not save images/videos')
     parser.add_argument('--classes', nargs='+', type=int, help='filter by class: --classes 0, or --classes 0 2 3')
