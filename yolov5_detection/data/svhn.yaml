@@ -1,0 +1,22 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train: data/train.txt  # train images (relative to 'path') 0.8*33402 images
+val: data/val.txt  # train images (relative to 'path') 0.2*33402 images
+test: data/test.txt
+# Classes
+
+# number of classes
+nc: 10  
+
+# class names
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
