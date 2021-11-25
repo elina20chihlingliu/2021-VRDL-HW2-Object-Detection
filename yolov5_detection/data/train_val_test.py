@@ -58,8 +58,6 @@ for image_set in sets:
     對所有的檔案資料集進行遍歷
     做了兩個工作：
 　　　　１．講所有圖片檔案都遍歷一遍，並且將其所有的全路徑都寫在對應的txt檔案中去，方便定位
-　　　　２．同時對所有的圖片檔案進行解析和轉化，將其對應的bundingbox 以及類別的資訊全部解析寫到label 檔案中去
-    　　　　　最後再通過直接讀取檔案，就能找到對應的label 資訊
     '''
     image_ids = open('./dataset/%s.txt' % (image_set)).read().strip().split()
     # 開啟對應的train.txt 檔案對其進行寫入準備
