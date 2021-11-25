@@ -123,18 +123,25 @@ python detect.py --source data/test/ --weights runs/train/exp/weights/best.pt
 
 - Make Submission: output json format
 ```
-python combine.py
+python output.py
 ```
 ```
 [{
+  "image_id": image_name,
+  "score": confidence,
+  "category_id": predict_label,
   "bbox": [[top, left, buttom, right]],
-  "score": [confidence],
-  "label": [predict_label]
  }, 
  {
-  "bbox": [[7, 112, 28, 121], [9, 122, 27, 134],
-  "score": [0.674805, 0.713867],
-  "label": [1, 0]
+        "image_id": 100000,
+        "score": 0.5012,
+        "category_id": 6,
+        "bbox": [
+            60.99991,
+            14.000025,
+            39.00004,
+            52.999981999999996
+        ]
  }
 ]
 ```
