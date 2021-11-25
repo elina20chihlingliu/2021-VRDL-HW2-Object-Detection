@@ -51,7 +51,7 @@ The files in the data folder is reorganized as below:
  │     ├──  xxx.png
  │     └──  digitStruct.mat
  ├── test
- │     └──yyy.png
+ │     └──  yyy.png
  ├── mat_to_yolo.py
  ├── train_val_test.py
  └── shvn.yaml
@@ -70,9 +70,9 @@ And run command `python train_val_test.py` to create train.txt, val.txt, test.tx
  │     ├──  train.txt
  │     ├──  test.txt
  │     └──  val.txt
- ├──  train.txt
- ├──  test.txt
- ├──  val.txt
+ ├── train.txt
+ ├── test.txt
+ ├── val.txt
  ├── mat_to_yolo.py
  ├── train_val_test.py
  └── shvn.yaml
