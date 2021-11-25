@@ -149,4 +149,5 @@ python output.py
 ### Reference
 - [h5py - Quick Start Guide](https://docs.h5py.org/en/stable/quick.html)
 - [YOLOv5](https://github.com/ultralytics/yolov5)
-- [2020_HW2]https://github.com/chia56028/Street-View-House-Numbers-Detection/blob/main/README.md
+- [YOLOv5 實現目標檢測](https://tw511.com/a/01/29504.html)
+- [2020_HW2](https://github.com/chia56028/Street-View-House-Numbers-Detection/blob/main/README.md)
