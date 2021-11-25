@@ -21,7 +21,7 @@ The project is implemented based on yolov5.
 To reproduct my submission without retrainig, run inference.ipynb on my Google Drive:
 - [inference.ipynb](https://drive.google.com/file/d/14IUxba_Tjaw3teusvljHuXGmZ8rEvH1a/view?usp=sharing)
 
-## All steps including data preparation, train phase and detect phase.
+## All steps including data preparation, train phase and detect phase
 1. [Installation](#install-packages)
 2. [Data Preparation](#data-preparation)
 3. [Set Configuration](#set-configuration)
@@ -46,7 +46,7 @@ Download the given dataset from [Google Drive](https://drive.google.com/drive/fo
 
 The files in the data folder is reorganized as below:
 ```
-data/.
+./data
  ├── train
  │     ├──  xxx.png
  │     └──  digitStruct.mat
@@ -60,7 +60,7 @@ data/.
 
 And run command `python train_val_test.py` to create train.txt, val.txt, test.txt for training and reorganize the  data structure as below:
 ```
-data/.
+./data
  ├── train
  │     ├──  xxx.png
  │     └──  digitStruct.mat
