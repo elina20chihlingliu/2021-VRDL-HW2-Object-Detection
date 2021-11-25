@@ -121,7 +121,7 @@ python train.py --epochs 20 --weights yolov5m.pt
 python detect.py --source data/test/ --weights runs/train/exp/weights/best.pt
 ```
 
-- Make Submission: output json format
+- Make Submission: creat answer.json following coco dataset format
 ```
 python output.py
 ```
@@ -145,3 +145,8 @@ python output.py
  }
 ]
 ```
+
+### Reference
+- [h5py - Quick Start Guide](https://docs.h5py.org/en/stable/quick.html)
+- [YOLOv5](https://github.com/ultralytics/yolov5)
+- [2020_HW2]https://github.com/chia56028/Street-View-House-Numbers-Detection/blob/main/README.md
