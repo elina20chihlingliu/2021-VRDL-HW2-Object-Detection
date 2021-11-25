@@ -18,7 +18,7 @@ The project is implemented based on yolov5.
 - [YOLOv5](https://github.com/ultralytics/yolov5)
 
 ## Reproducing Submission
-To reproduct my submission without retrainig, run inference.ipynb on my Google Drive:
+To reproduct my submission without retrainig, run inference.ipynb on my Google Drive:\n
 [inference.ipynb](https://drive.google.com/file/d/14IUxba_Tjaw3teusvljHuXGmZ8rEvH1a/view?usp=sharing)
 
 ## All steps:(includes train phase and detect phase)
