@@ -130,7 +130,7 @@ python output.py
   "image_id": image_name,
   "score": confidence,
   "category_id": predict_label,
-  "bbox": [[top, left, buttom, right]],
+  "bbox": [[left, top, width, height]],
  }, 
  {
         "image_id": 100000,
